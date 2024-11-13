@@ -1,6 +1,7 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
 }
 .title{
    font-size: 60px;
@@ -10,10 +11,13 @@
     height: 200px;
 }
 h1{
+    background-color: aquamarine;
     text-align: center;
     font-size: 100px;
 }
 .card{
+    background-color: aquamarine;
+    background-clip: center;
     text-align: center;
 }
 a{

@@ -1,0 +1,23 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    row-gap: 10px;
+}
+.card_img{
+    border: 2px solid;
+    width: 400px;
+    height: 300px;
+}
+.contentbox{
+    background-color:aquamarine;
+    display: grid;
+    grid-template-rows:auto;
+    border: 2px solid;
+    text-align: start;
+    font-size: 30px;
+    row-gap: 10px;
+}
+h1{
+    text-align: start;
+    font-size: 70px;
+}
